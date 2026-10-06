@@ -139,8 +139,9 @@ span{
 }
 
 #contact{
-    min-height: 2500px;
+    min-height: 250px;
     padding: 60px;
+    text-align:center;
     background-color:palevioletred;
 }
 
