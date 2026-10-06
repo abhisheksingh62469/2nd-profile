@@ -139,9 +139,9 @@ span{
 }
 
 #contact{
-    min-height: 300px;
+    min-height: 2500px;
     padding: 60px;
-    background-image: url(photo-1719912682393-70038492a782.avif);
+    background-color:palevioletred;
 }
 
 footer{
