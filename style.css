@@ -155,3 +155,44 @@ footer{
     background-color: black;
 
 }
+
+/* --- PHONE ME THEEK DIKHNE KE LIYE FIX --- */
+@media (max-width: 768px) {
+  .home {
+    height: auto !important;
+    padding: 120px 20px 40px 20px;
+    background-position: center !important;
+  }
+  
+  .home-content h1 {
+    font-size: 32px !important;
+  }
+
+  .about {
+    height: auto !important;
+    padding: 40px 20px;
+    background-image: none !important; /* phone par peela wala background hata diya */
+    background-color: #ffcc00; /* sirf peela color rakha */
+  }
+  
+  .about-content {
+    width: 100% !important;
+  }
+}
+
+/* Background images sahi se fit hone ke liye */
+.home {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.about {
+  background-size: cover !important;
+}
+
+
+
+
+
+
+
